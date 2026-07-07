@@ -1,0 +1,1838 @@
+{
+  "grades": [
+    {
+      "id": "d25f2e14-613f-4c3d-a2d7-87b4bc748ab1",
+      "name": "Associate Executive",
+      "code": "AE",
+      "target_score": 70,
+      "base_increment_pct": 10,
+      "sort_order": 1
+    },
+    {
+      "id": "90d02817-6806-4597-b023-053ff2b88cf9",
+      "name": "Executive",
+      "code": "EX",
+      "target_score": 70,
+      "base_increment_pct": 10,
+      "sort_order": 2
+    },
+    {
+      "id": "525acd37-cbb2-40c0-8e95-b7d43b177a3f",
+      "name": "Sr. Executive",
+      "code": "SE",
+      "target_score": 70,
+      "base_increment_pct": 10,
+      "sort_order": 3
+    },
+    {
+      "id": "87920b4f-a8e6-4ac0-ac71-11190c989d98",
+      "name": "Associate Manager",
+      "code": "AM",
+      "target_score": 75,
+      "base_increment_pct": 10,
+      "sort_order": 4
+    },
+    {
+      "id": "94fc6187-6302-4adf-9dbf-fd15fd76c26d",
+      "name": "Manager",
+      "code": "MGR",
+      "target_score": 75,
+      "base_increment_pct": 10,
+      "sort_order": 5
+    },
+    {
+      "id": "ee298d9e-4a17-4a31-ad28-1a55f9973ebd",
+      "name": "Senior Manager",
+      "code": "SM",
+      "target_score": 80,
+      "base_increment_pct": 10,
+      "sort_order": 6
+    },
+    {
+      "id": "7740f944-30e5-40c9-a70a-264d5f380a18",
+      "name": "Associate Vice President",
+      "code": "AVP",
+      "target_score": 85,
+      "base_increment_pct": 10,
+      "sort_order": 7
+    },
+    {
+      "id": "a3e80b35-3a2d-437a-85ee-082b404481b3",
+      "name": "Vice President",
+      "code": "VP",
+      "target_score": 85,
+      "base_increment_pct": 10,
+      "sort_order": 8
+    },
+    {
+      "id": "75b3ae1e-85ac-4a12-b120-d22a5d2b0e9d",
+      "name": "Senior Vice President",
+      "code": "SVP",
+      "target_score": 90,
+      "base_increment_pct": 10,
+      "sort_order": 9
+    },
+    {
+      "id": "35047d17-e9b9-4600-b666-d1b1ddccc43f",
+      "name": "US EMP",
+      "code": "USEMP",
+      "target_score": 80,
+      "base_increment_pct": 10,
+      "sort_order": 10
+    },
+    {
+      "id": "6a193a16-10ca-4973-967b-b03c4731cecb",
+      "name": "Contractor",
+      "code": "CTR",
+      "target_score": 80,
+      "base_increment_pct": 10,
+      "sort_order": 11
+    }
+  ],
+  "bands": [
+    {
+      "id": "cead5845-577a-4cba-aa14-feaec8e951a2",
+      "designation_id": "d25f2e14-613f-4c3d-a2d7-87b4bc748ab1",
+      "designation_name": "Associate Executive",
+      "grade_code": "E-01",
+      "label": null,
+      "salary_amount": 25300,
+      "details": {
+        "PF": 1265,
+        "IPD": 300000,
+        "OPD": 50000,
+        "Gross": 25300,
+        "Normal": 40000,
+        "Package": 55732,
+        "Cesarean": 90000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "b147b645-a65e-4abd-a110-0b1bc2173926",
+      "designation_id": "d25f2e14-613f-4c3d-a2d7-87b4bc748ab1",
+      "designation_name": "Associate Executive",
+      "grade_code": "E-02",
+      "label": null,
+      "salary_amount": 26600,
+      "details": {
+        "PF": 1330,
+        "IPD": 300000,
+        "OPD": 50000,
+        "Gross": 26600,
+        "Normal": 40000,
+        "Package": 57097,
+        "Cesarean": 90000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "b58f1b5c-8101-4e4c-93df-0f94af8a752f",
+      "designation_id": "d25f2e14-613f-4c3d-a2d7-87b4bc748ab1",
+      "designation_name": "Associate Executive",
+      "grade_code": "E-03",
+      "label": null,
+      "salary_amount": 27900,
+      "details": {
+        "PF": 1395,
+        "IPD": 300000,
+        "OPD": 50000,
+        "Gross": 27900,
+        "Normal": 40000,
+        "Package": 58462,
+        "Cesarean": 90000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "983b708b-d1be-4c1a-a5d6-cb2a66cc5eb3",
+      "designation_id": "d25f2e14-613f-4c3d-a2d7-87b4bc748ab1",
+      "designation_name": "Associate Executive",
+      "grade_code": "E-04",
+      "label": null,
+      "salary_amount": 29300,
+      "details": {
+        "PF": 1465,
+        "IPD": 300000,
+        "OPD": 50000,
+        "Gross": 29300,
+        "Normal": 40000,
+        "Package": 59932,
+        "Cesarean": 90000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "221a4a36-0f85-4310-88ad-8b47cabe1cea",
+      "designation_id": "d25f2e14-613f-4c3d-a2d7-87b4bc748ab1",
+      "designation_name": "Associate Executive",
+      "grade_code": "E-05",
+      "label": null,
+      "salary_amount": 30800,
+      "details": {
+        "PF": 1540,
+        "IPD": 300000,
+        "OPD": 50000,
+        "Gross": 30800,
+        "Normal": 40000,
+        "Package": 61507,
+        "Cesarean": 90000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "3ff05d22-8026-4d90-a95d-c6475d4a8761",
+      "designation_id": "d25f2e14-613f-4c3d-a2d7-87b4bc748ab1",
+      "designation_name": "Associate Executive",
+      "grade_code": "E-06",
+      "label": null,
+      "salary_amount": 32300,
+      "details": {
+        "PF": 1615,
+        "IPD": 300000,
+        "OPD": 50000,
+        "Gross": 32300,
+        "Normal": 40000,
+        "Package": 63082,
+        "Cesarean": 90000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "ecc5667e-55a4-428c-8398-b742e0ef819c",
+      "designation_id": "d25f2e14-613f-4c3d-a2d7-87b4bc748ab1",
+      "designation_name": "Associate Executive",
+      "grade_code": "E-07",
+      "label": null,
+      "salary_amount": 33900,
+      "details": {
+        "PF": 1695,
+        "IPD": 300000,
+        "OPD": 50000,
+        "Gross": 33900,
+        "Normal": 40000,
+        "Package": 64762,
+        "Cesarean": 90000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "f916af50-f475-4e8a-bf29-f464413df73a",
+      "designation_id": "d25f2e14-613f-4c3d-a2d7-87b4bc748ab1",
+      "designation_name": "Associate Executive",
+      "grade_code": "E-08",
+      "label": null,
+      "salary_amount": 35600,
+      "details": {
+        "PF": 1780,
+        "IPD": 300000,
+        "OPD": 50000,
+        "Gross": 35600,
+        "Normal": 40000,
+        "Package": 66547,
+        "Cesarean": 90000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "b61ceafa-5b51-40e0-9ef0-835a9b35d36e",
+      "designation_id": "90d02817-6806-4597-b023-053ff2b88cf9",
+      "designation_name": "Executive",
+      "grade_code": "E-09",
+      "label": null,
+      "salary_amount": 37400,
+      "details": {
+        "PF": 1870,
+        "IPD": 300000,
+        "OPD": 50000,
+        "Gross": 37400,
+        "Normal": 40000,
+        "Package": 68437,
+        "Cesarean": 90000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "963e6481-0795-43c0-b844-060a4aa4fe8d",
+      "designation_id": "90d02817-6806-4597-b023-053ff2b88cf9",
+      "designation_name": "Executive",
+      "grade_code": "E-10",
+      "label": null,
+      "salary_amount": 39200,
+      "details": {
+        "PF": 1960,
+        "IPD": 300000,
+        "OPD": 50000,
+        "Gross": 39200,
+        "Normal": 40000,
+        "Package": 70327,
+        "Cesarean": 90000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "74cc204a-2664-470a-9de6-1bad5b72fca4",
+      "designation_id": "90d02817-6806-4597-b023-053ff2b88cf9",
+      "designation_name": "Executive",
+      "grade_code": "E-11",
+      "label": null,
+      "salary_amount": 41200,
+      "details": {
+        "PF": 2060,
+        "IPD": 300000,
+        "OPD": 50000,
+        "Gross": 41200,
+        "Normal": 40000,
+        "Package": 72427,
+        "Cesarean": 90000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "c9e219a5-3175-4d2a-9283-4b6d097122c4",
+      "designation_id": "90d02817-6806-4597-b023-053ff2b88cf9",
+      "designation_name": "Executive",
+      "grade_code": "E-12",
+      "label": null,
+      "salary_amount": 43300,
+      "details": {
+        "PF": 2165,
+        "IPD": 300000,
+        "OPD": 50000,
+        "Gross": 43300,
+        "Normal": 40000,
+        "Package": 74632,
+        "Cesarean": 90000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "fb2cab66-9c6d-4740-ade3-73eb29d5e675",
+      "designation_id": "90d02817-6806-4597-b023-053ff2b88cf9",
+      "designation_name": "Executive",
+      "grade_code": "E-13",
+      "label": null,
+      "salary_amount": 45400,
+      "details": {
+        "PF": 2270,
+        "IPD": 300000,
+        "OPD": 50000,
+        "Gross": 45400,
+        "Normal": 40000,
+        "Package": 76837,
+        "Cesarean": 90000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "bc465228-fe01-4648-b27f-37cba00b6d5b",
+      "designation_id": "90d02817-6806-4597-b023-053ff2b88cf9",
+      "designation_name": "Executive",
+      "grade_code": "E-14",
+      "label": null,
+      "salary_amount": 47700,
+      "details": {
+        "PF": 2385,
+        "IPD": 300000,
+        "OPD": 50000,
+        "Gross": 47700,
+        "Normal": 40000,
+        "Package": 79252,
+        "Cesarean": 90000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "9e2f9258-33de-4736-95a8-bd777d2e226b",
+      "designation_id": "90d02817-6806-4597-b023-053ff2b88cf9",
+      "designation_name": "Executive",
+      "grade_code": "E-15",
+      "label": null,
+      "salary_amount": 50100,
+      "details": {
+        "PF": 2505,
+        "IPD": 300000,
+        "OPD": 50000,
+        "Gross": 50100,
+        "Normal": 40000,
+        "Package": 81772,
+        "Cesarean": 90000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "79e91ba5-ca89-45db-bc44-3fe87bd6d83b",
+      "designation_id": "90d02817-6806-4597-b023-053ff2b88cf9",
+      "designation_name": "Executive",
+      "grade_code": "E-16",
+      "label": null,
+      "salary_amount": 52600,
+      "details": {
+        "PF": 2630,
+        "IPD": 300000,
+        "OPD": 50000,
+        "Gross": 52600,
+        "Normal": 40000,
+        "Package": 84397,
+        "Cesarean": 90000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "3c4a5ffe-cc60-41b2-b886-a818d143517a",
+      "designation_id": "525acd37-cbb2-40c0-8e95-b7d43b177a3f",
+      "designation_name": "Sr. Executive",
+      "grade_code": "E-17",
+      "label": null,
+      "salary_amount": 52800,
+      "details": {
+        "PF": 2640,
+        "IPD": 350000,
+        "OPD": 60000,
+        "Gross": 52800,
+        "Normal": 45000,
+        "Package": 89607,
+        "Cesarean": 90000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "d77689de-baae-4724-9c41-eae015e197da",
+      "designation_id": "525acd37-cbb2-40c0-8e95-b7d43b177a3f",
+      "designation_name": "Sr. Executive",
+      "grade_code": "E-18",
+      "label": null,
+      "salary_amount": 55500,
+      "details": {
+        "PF": 2775,
+        "IPD": 350000,
+        "OPD": 60000,
+        "Gross": 55500,
+        "Normal": 45000,
+        "Package": 92442,
+        "Cesarean": 90000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "042e39e6-c311-4727-8b3d-c38cd3cb4a7b",
+      "designation_id": "525acd37-cbb2-40c0-8e95-b7d43b177a3f",
+      "designation_name": "Sr. Executive",
+      "grade_code": "E-19",
+      "label": null,
+      "salary_amount": 58200,
+      "details": {
+        "PF": 2910,
+        "IPD": 350000,
+        "OPD": 60000,
+        "Gross": 58200,
+        "Normal": 45000,
+        "Package": 95277,
+        "Cesarean": 90000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "63bf0d06-6749-4bc6-852d-14c558b5eaac",
+      "designation_id": "525acd37-cbb2-40c0-8e95-b7d43b177a3f",
+      "designation_name": "Sr. Executive",
+      "grade_code": "E-20",
+      "label": null,
+      "salary_amount": 61200,
+      "details": {
+        "PF": 3060,
+        "IPD": 350000,
+        "OPD": 60000,
+        "Gross": 61200,
+        "Normal": 45000,
+        "Package": 98427,
+        "Cesarean": 90000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "5fa407a7-a90a-4876-ba2d-4605b4c23d4b",
+      "designation_id": "525acd37-cbb2-40c0-8e95-b7d43b177a3f",
+      "designation_name": "Sr. Executive",
+      "grade_code": "E-21",
+      "label": null,
+      "salary_amount": 64200,
+      "details": {
+        "PF": 3210,
+        "IPD": 350000,
+        "OPD": 60000,
+        "Gross": 64200,
+        "Normal": 45000,
+        "Package": 101577,
+        "Cesarean": 90000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "dc4af4e5-c5bf-4166-ad00-d8dfd4ac03b2",
+      "designation_id": "525acd37-cbb2-40c0-8e95-b7d43b177a3f",
+      "designation_name": "Sr. Executive",
+      "grade_code": "E-22",
+      "label": null,
+      "salary_amount": 67400,
+      "details": {
+        "PF": 3370,
+        "IPD": 350000,
+        "OPD": 60000,
+        "Gross": 67400,
+        "Normal": 45000,
+        "Package": 104937,
+        "Cesarean": 90000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "f0aaf7f7-8b94-4544-a7dd-a0635ba76650",
+      "designation_id": "525acd37-cbb2-40c0-8e95-b7d43b177a3f",
+      "designation_name": "Sr. Executive",
+      "grade_code": "E-23",
+      "label": null,
+      "salary_amount": 70800,
+      "details": {
+        "PF": 3540,
+        "IPD": 350000,
+        "OPD": 60000,
+        "Gross": 70800,
+        "Normal": 45000,
+        "Package": 108507,
+        "Cesarean": 90000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "c9de6c3a-2fcc-42f0-bf3f-edd51ccc824a",
+      "designation_id": "525acd37-cbb2-40c0-8e95-b7d43b177a3f",
+      "designation_name": "Sr. Executive",
+      "grade_code": "E-24",
+      "label": null,
+      "salary_amount": 74300,
+      "details": {
+        "PF": 3715,
+        "IPD": 350000,
+        "OPD": 60000,
+        "Gross": 74300,
+        "Normal": 45000,
+        "Package": 112182,
+        "Cesarean": 90000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "0c6b2285-36ae-4945-a082-10340406087a",
+      "designation_id": "87920b4f-a8e6-4ac0-ac71-11190c989d98",
+      "designation_name": "Associate Manager",
+      "grade_code": "M-01",
+      "label": null,
+      "salary_amount": 78000,
+      "details": {
+        "PF": 3900,
+        "IPD": 400000,
+        "OPD": 70000,
+        "Fuel": 5000,
+        "Gross": 83000,
+        "Normal": 50000,
+        "Package": 126067,
+        "Cesarean": 100000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "5212d999-cf11-46d6-8db7-4871513c4515",
+      "designation_id": "87920b4f-a8e6-4ac0-ac71-11190c989d98",
+      "designation_name": "Associate Manager",
+      "grade_code": "M-02",
+      "label": null,
+      "salary_amount": 81900,
+      "details": {
+        "PF": 4095,
+        "IPD": 400000,
+        "OPD": 70000,
+        "Fuel": 5000,
+        "Gross": 86900,
+        "Normal": 50000,
+        "Package": 130162,
+        "Cesarean": 100000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "49c39c0a-7f44-4f02-b027-3610a982af13",
+      "designation_id": "87920b4f-a8e6-4ac0-ac71-11190c989d98",
+      "designation_name": "Associate Manager",
+      "grade_code": "M-03",
+      "label": null,
+      "salary_amount": 86000,
+      "details": {
+        "PF": 4300,
+        "IPD": 400000,
+        "OPD": 70000,
+        "Fuel": 5000,
+        "Gross": 91000,
+        "Normal": 50000,
+        "Package": 134467,
+        "Cesarean": 100000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "f8f8213d-fdf5-4130-8dbb-2c85b16e90bc",
+      "designation_id": "87920b4f-a8e6-4ac0-ac71-11190c989d98",
+      "designation_name": "Associate Manager",
+      "grade_code": "M-04",
+      "label": null,
+      "salary_amount": 90300,
+      "details": {
+        "PF": 4515,
+        "IPD": 400000,
+        "OPD": 70000,
+        "Fuel": 5000,
+        "Gross": 95300,
+        "Normal": 50000,
+        "Package": 138982,
+        "Cesarean": 100000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "5bc8c6d3-920a-4ab1-afec-5dafff155806",
+      "designation_id": "87920b4f-a8e6-4ac0-ac71-11190c989d98",
+      "designation_name": "Associate Manager",
+      "grade_code": "M-05",
+      "label": null,
+      "salary_amount": 94900,
+      "details": {
+        "PF": 4745,
+        "IPD": 400000,
+        "OPD": 70000,
+        "Fuel": 5000,
+        "Gross": 99900,
+        "Normal": 50000,
+        "Package": 143812,
+        "Cesarean": 100000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "96cda8b5-3eb9-45c6-8e43-99ed9f1f2f50",
+      "designation_id": "87920b4f-a8e6-4ac0-ac71-11190c989d98",
+      "designation_name": "Associate Manager",
+      "grade_code": "M-06",
+      "label": null,
+      "salary_amount": 99600,
+      "details": {
+        "PF": 4980,
+        "IPD": 400000,
+        "OPD": 70000,
+        "Fuel": 5000,
+        "Gross": 104600,
+        "Normal": 50000,
+        "Package": 148747,
+        "Cesarean": 100000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "3c0fd295-c775-41ba-9dd9-8e101f4e1a6e",
+      "designation_id": "87920b4f-a8e6-4ac0-ac71-11190c989d98",
+      "designation_name": "Associate Manager",
+      "grade_code": "M-07",
+      "label": null,
+      "salary_amount": 104600,
+      "details": {
+        "PF": 5230,
+        "IPD": 400000,
+        "OPD": 70000,
+        "Fuel": 5000,
+        "Gross": 109600,
+        "Normal": 50000,
+        "Package": 153997,
+        "Cesarean": 100000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "90b615c3-bc6d-450f-9b12-b92390722f5b",
+      "designation_id": "87920b4f-a8e6-4ac0-ac71-11190c989d98",
+      "designation_name": "Associate Manager",
+      "grade_code": "M-08",
+      "label": null,
+      "salary_amount": 109800,
+      "details": {
+        "PF": 5490,
+        "IPD": 400000,
+        "OPD": 70000,
+        "Fuel": 5000,
+        "Gross": 114800,
+        "Normal": 50000,
+        "Package": 159457,
+        "Cesarean": 100000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "05bd92c7-33e9-42c4-be90-b0ff1abfdd1d",
+      "designation_id": "94fc6187-6302-4adf-9dbf-fd15fd76c26d",
+      "designation_name": "Manager",
+      "grade_code": "M-09",
+      "label": null,
+      "salary_amount": 115300,
+      "details": {
+        "PF": 5765,
+        "IPD": 450000,
+        "OPD": 80000,
+        "Fuel": 7500,
+        "Gross": 122800,
+        "Normal": 60000,
+        "Package": 172732,
+        "Cesarean": 120000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "58e0f676-d9a5-41ea-a6dd-53231773ca14",
+      "designation_id": "94fc6187-6302-4adf-9dbf-fd15fd76c26d",
+      "designation_name": "Manager",
+      "grade_code": "M-10",
+      "label": null,
+      "salary_amount": 121100,
+      "details": {
+        "PF": 6055,
+        "IPD": 450000,
+        "OPD": 80000,
+        "Fuel": 7500,
+        "Gross": 128600,
+        "Normal": 60000,
+        "Package": 178822,
+        "Cesarean": 120000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "bd7e9457-2f93-41cf-8545-5a0191b967ef",
+      "designation_id": "94fc6187-6302-4adf-9dbf-fd15fd76c26d",
+      "designation_name": "Manager",
+      "grade_code": "M-11",
+      "label": null,
+      "salary_amount": 127100,
+      "details": {
+        "PF": 6355,
+        "IPD": 450000,
+        "OPD": 80000,
+        "Fuel": 7500,
+        "Gross": 134600,
+        "Normal": 60000,
+        "Package": 185122,
+        "Cesarean": 120000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "2616ff16-93e1-4b7b-bc85-1c78dbf6c715",
+      "designation_id": "94fc6187-6302-4adf-9dbf-fd15fd76c26d",
+      "designation_name": "Manager",
+      "grade_code": "M-12",
+      "label": null,
+      "salary_amount": 133500,
+      "details": {
+        "PF": 6675,
+        "IPD": 450000,
+        "OPD": 80000,
+        "Fuel": 7500,
+        "Gross": 141000,
+        "Normal": 60000,
+        "Package": 191842,
+        "Cesarean": 120000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "9206c9e8-bf0c-4055-9d5f-19491fef17ea",
+      "designation_id": "94fc6187-6302-4adf-9dbf-fd15fd76c26d",
+      "designation_name": "Manager",
+      "grade_code": "M-13",
+      "label": null,
+      "salary_amount": 140200,
+      "details": {
+        "PF": 7010,
+        "IPD": 450000,
+        "OPD": 80000,
+        "Fuel": 7500,
+        "Gross": 147700,
+        "Normal": 60000,
+        "Package": 198877,
+        "Cesarean": 120000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "9bed07a0-3d5b-441a-af3b-83f1230168cc",
+      "designation_id": "94fc6187-6302-4adf-9dbf-fd15fd76c26d",
+      "designation_name": "Manager",
+      "grade_code": "M-14",
+      "label": null,
+      "salary_amount": 147200,
+      "details": {
+        "PF": 7360,
+        "IPD": 450000,
+        "OPD": 80000,
+        "Fuel": 7500,
+        "Gross": 154700,
+        "Normal": 60000,
+        "Package": 206227,
+        "Cesarean": 120000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "72c50f75-8418-47a9-ba2d-d7b2c397580e",
+      "designation_id": "94fc6187-6302-4adf-9dbf-fd15fd76c26d",
+      "designation_name": "Manager",
+      "grade_code": "M-15",
+      "label": null,
+      "salary_amount": 154500,
+      "details": {
+        "PF": 7725,
+        "IPD": 450000,
+        "OPD": 80000,
+        "Fuel": 7500,
+        "Gross": 162000,
+        "Normal": 60000,
+        "Package": 213892,
+        "Cesarean": 120000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "4feb6016-d310-4723-9714-12e3bd17c6cf",
+      "designation_id": "94fc6187-6302-4adf-9dbf-fd15fd76c26d",
+      "designation_name": "Manager",
+      "grade_code": "M-16",
+      "label": null,
+      "salary_amount": 162300,
+      "details": {
+        "PF": 8115,
+        "IPD": 450000,
+        "OPD": 80000,
+        "Fuel": 7500,
+        "Gross": 169800,
+        "Normal": 60000,
+        "Package": 222082,
+        "Cesarean": 120000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "2f97fe35-30a4-4256-a306-0d697834bbaf",
+      "designation_id": "ee298d9e-4a17-4a31-ad28-1a55f9973ebd",
+      "designation_name": "Senior Manager",
+      "grade_code": "M-17",
+      "label": null,
+      "salary_amount": 170400,
+      "details": {
+        "PF": 8520,
+        "IPD": 500000,
+        "OPD": 90000,
+        "Fuel": 10000,
+        "Gross": 180400,
+        "Normal": 100000,
+        "Package": 238087,
+        "Cesarean": 200000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "fb4c8ba9-411a-4152-a545-e5a06eb47b15",
+      "designation_id": "ee298d9e-4a17-4a31-ad28-1a55f9973ebd",
+      "designation_name": "Senior Manager",
+      "grade_code": "M-18",
+      "label": null,
+      "salary_amount": 178900,
+      "details": {
+        "PF": 8945,
+        "IPD": 500000,
+        "OPD": 90000,
+        "Fuel": 10000,
+        "Gross": 188900,
+        "Normal": 100000,
+        "Package": 247012,
+        "Cesarean": 200000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "7781890c-e7c2-4ca1-85ff-6f3535956ea9",
+      "designation_id": "ee298d9e-4a17-4a31-ad28-1a55f9973ebd",
+      "designation_name": "Senior Manager",
+      "grade_code": "M-19",
+      "label": null,
+      "salary_amount": 187800,
+      "details": {
+        "PF": 9390,
+        "IPD": 500000,
+        "OPD": 90000,
+        "Fuel": 10000,
+        "Gross": 197800,
+        "Normal": 100000,
+        "Package": 256357,
+        "Cesarean": 200000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "c2e8eceb-1ad3-4122-aff7-ddc61dc20c1a",
+      "designation_id": "ee298d9e-4a17-4a31-ad28-1a55f9973ebd",
+      "designation_name": "Senior Manager",
+      "grade_code": "M-20",
+      "label": null,
+      "salary_amount": 197700,
+      "details": {
+        "PF": 9885,
+        "IPD": 500000,
+        "OPD": 90000,
+        "Fuel": 10000,
+        "Gross": 207700,
+        "Normal": 100000,
+        "Package": 266752,
+        "Cesarean": 200000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "09be7e77-f724-41f9-96d2-f2d4901a4060",
+      "designation_id": "ee298d9e-4a17-4a31-ad28-1a55f9973ebd",
+      "designation_name": "Senior Manager",
+      "grade_code": "M-20*",
+      "label": null,
+      "salary_amount": 197700,
+      "details": {
+        "PF": 9885,
+        "IPD": 500000,
+        "OPD": 90000,
+        "Fuel": 10000,
+        "Gross": 207700,
+        "Normal": 100000,
+        "Package": 266752,
+        "Cesarean": 200000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "792ddb4f-2959-4321-bb9c-60303c783f7f",
+      "designation_id": "ee298d9e-4a17-4a31-ad28-1a55f9973ebd",
+      "designation_name": "Senior Manager",
+      "grade_code": "M-21",
+      "label": null,
+      "salary_amount": 207600,
+      "details": {
+        "PF": 10380,
+        "IPD": 500000,
+        "OPD": 90000,
+        "Fuel": 10000,
+        "Gross": 217600,
+        "Normal": 100000,
+        "Package": 277147,
+        "Cesarean": 200000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "cea6e96e-894f-4b55-933b-2938b03a226d",
+      "designation_id": "ee298d9e-4a17-4a31-ad28-1a55f9973ebd",
+      "designation_name": "Senior Manager",
+      "grade_code": "M-22",
+      "label": null,
+      "salary_amount": 218000,
+      "details": {
+        "PF": 10900,
+        "IPD": 500000,
+        "OPD": 90000,
+        "Fuel": 10000,
+        "Gross": 228000,
+        "Normal": 100000,
+        "Package": 288067,
+        "Cesarean": 200000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "fcb86b6b-010d-4063-8a27-708f05dee4fc",
+      "designation_id": "ee298d9e-4a17-4a31-ad28-1a55f9973ebd",
+      "designation_name": "Senior Manager",
+      "grade_code": "M-23",
+      "label": null,
+      "salary_amount": 228900,
+      "details": {
+        "PF": 11445,
+        "IPD": 500000,
+        "OPD": 90000,
+        "Fuel": 10000,
+        "Gross": 238900,
+        "Normal": 100000,
+        "Package": 299512,
+        "Cesarean": 200000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "649b1ba9-73c1-4c66-9d16-738b44ac105b",
+      "designation_id": "ee298d9e-4a17-4a31-ad28-1a55f9973ebd",
+      "designation_name": "Senior Manager",
+      "grade_code": "M-24",
+      "label": null,
+      "salary_amount": 240300,
+      "details": {
+        "PF": 12015,
+        "IPD": 500000,
+        "OPD": 90000,
+        "Fuel": 10000,
+        "Gross": 250300,
+        "Normal": 100000,
+        "Package": 311482,
+        "Cesarean": 200000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "d6e0a38c-c229-45b5-86eb-9c3c9dfc5d69",
+      "designation_id": "ee298d9e-4a17-4a31-ad28-1a55f9973ebd",
+      "designation_name": "Senior Manager",
+      "grade_code": "M-25",
+      "label": null,
+      "salary_amount": 252300,
+      "details": {
+        "PF": 12615,
+        "IPD": 500000,
+        "OPD": 90000,
+        "Fuel": 10000,
+        "Gross": 262300,
+        "Normal": 100000,
+        "Package": 324082,
+        "Cesarean": 200000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "55e08324-84df-4ad6-bfbd-a19b5bf0322a",
+      "designation_id": "ee298d9e-4a17-4a31-ad28-1a55f9973ebd",
+      "designation_name": "Senior Manager",
+      "grade_code": "M-26",
+      "label": null,
+      "salary_amount": 264900,
+      "details": {
+        "PF": 13245,
+        "IPD": 500000,
+        "OPD": 90000,
+        "Fuel": 10000,
+        "Gross": 274900,
+        "Normal": 100000,
+        "Package": 337312,
+        "Cesarean": 200000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "8f868b17-a124-4bb2-9b86-4983ffae21f8",
+      "designation_id": "ee298d9e-4a17-4a31-ad28-1a55f9973ebd",
+      "designation_name": "Senior Manager",
+      "grade_code": "M-27",
+      "label": null,
+      "salary_amount": 278100,
+      "details": {
+        "PF": 13905,
+        "IPD": 500000,
+        "OPD": 90000,
+        "Fuel": 10000,
+        "Gross": 288100,
+        "Normal": 100000,
+        "Package": 351172,
+        "Cesarean": 200000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "19848d12-2968-4fcf-85f3-1d0931cf55ac",
+      "designation_id": "ee298d9e-4a17-4a31-ad28-1a55f9973ebd",
+      "designation_name": "Senior Manager",
+      "grade_code": "M-28",
+      "label": null,
+      "salary_amount": 292000,
+      "details": {
+        "PF": 14600,
+        "IPD": 500000,
+        "OPD": 90000,
+        "Fuel": 10000,
+        "Gross": 302000,
+        "Normal": 100000,
+        "Package": 365767,
+        "Cesarean": 200000
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "0255d725-f1b8-4c4c-8890-7476916bab77",
+      "designation_id": "7740f944-30e5-40c9-a70a-264d5f380a18",
+      "designation_name": "Associate Vice President",
+      "grade_code": "P-01",
+      "label": null,
+      "salary_amount": 306600,
+      "details": {
+        "PF": 15330,
+        "IPD": 550000,
+        "OPD": 100000,
+        "Fuel": 15000,
+        "Gross": 321600,
+        "Normal": 100000,
+        "Package": 471097,
+        "Cesarean": 200000,
+        "Vehicle*": "As per policy",
+        "Vehicle Value": 80000,
+        "Suggested Vehicle": "Picanto/Cultus"
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "99ce843b-5fed-479b-b72d-c8b076eda954",
+      "designation_id": "7740f944-30e5-40c9-a70a-264d5f380a18",
+      "designation_name": "Associate Vice President",
+      "grade_code": "P-02",
+      "label": null,
+      "salary_amount": 321900,
+      "details": {
+        "PF": 16095,
+        "IPD": 550000,
+        "OPD": 100000,
+        "Fuel": 15000,
+        "Gross": 336900,
+        "Normal": 100000,
+        "Package": 487162,
+        "Cesarean": 200000,
+        "Vehicle*": "As per policy",
+        "Vehicle Value": 80000,
+        "Suggested Vehicle": "Picanto/Cultus"
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "e883b87a-591e-4c74-901f-51b3b4aa4083",
+      "designation_id": "7740f944-30e5-40c9-a70a-264d5f380a18",
+      "designation_name": "Associate Vice President",
+      "grade_code": "P-03",
+      "label": null,
+      "salary_amount": 338000,
+      "details": {
+        "PF": 16900,
+        "IPD": 550000,
+        "OPD": 100000,
+        "Fuel": 15000,
+        "Gross": 353000,
+        "Normal": 100000,
+        "Package": 504067,
+        "Cesarean": 200000,
+        "Vehicle*": "As per policy",
+        "Vehicle Value": 80000,
+        "Suggested Vehicle": "Picanto/Cultus"
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "d9de9560-ebfd-48b9-a30c-a520be426076",
+      "designation_id": "7740f944-30e5-40c9-a70a-264d5f380a18",
+      "designation_name": "Associate Vice President",
+      "grade_code": "P-04",
+      "label": null,
+      "salary_amount": 354900,
+      "details": {
+        "PF": 17745,
+        "IPD": 550000,
+        "OPD": 100000,
+        "Fuel": 15000,
+        "Gross": 369900,
+        "Normal": 100000,
+        "Package": 521812,
+        "Cesarean": 200000,
+        "Vehicle*": "As per policy",
+        "Vehicle Value": 80000,
+        "Suggested Vehicle": "Picanto/Cultus"
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "aee5c699-b7b0-4f04-94c6-1c849f5252d7",
+      "designation_id": "7740f944-30e5-40c9-a70a-264d5f380a18",
+      "designation_name": "Associate Vice President",
+      "grade_code": "P-05",
+      "label": null,
+      "salary_amount": 372600,
+      "details": {
+        "PF": 18630,
+        "IPD": 550000,
+        "OPD": 100000,
+        "Fuel": 15000,
+        "Gross": 387600,
+        "Normal": 100000,
+        "Package": 540397,
+        "Cesarean": 200000,
+        "Vehicle*": "As per policy",
+        "Vehicle Value": 80000,
+        "Suggested Vehicle": "Picanto/Cultus"
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "51bb7f39-68ca-44a4-af92-129ed0a93ed2",
+      "designation_id": "7740f944-30e5-40c9-a70a-264d5f380a18",
+      "designation_name": "Associate Vice President",
+      "grade_code": "P-06",
+      "label": null,
+      "salary_amount": 391200,
+      "details": {
+        "PF": 19560,
+        "IPD": 550000,
+        "OPD": 100000,
+        "Fuel": 15000,
+        "Gross": 406200,
+        "Normal": 100000,
+        "Package": 559927,
+        "Cesarean": 200000,
+        "Vehicle*": "As per policy",
+        "Vehicle Value": 80000,
+        "Suggested Vehicle": "Picanto/Cultus"
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "aee5d057-1937-4c6e-a608-fa9790cc1aa2",
+      "designation_id": "7740f944-30e5-40c9-a70a-264d5f380a18",
+      "designation_name": "Associate Vice President",
+      "grade_code": "P-07",
+      "label": null,
+      "salary_amount": 410800,
+      "details": {
+        "PF": 20540,
+        "IPD": 550000,
+        "OPD": 100000,
+        "Fuel": 15000,
+        "Gross": 425800,
+        "Normal": 100000,
+        "Package": 580507,
+        "Cesarean": 200000,
+        "Vehicle*": "As per policy",
+        "Vehicle Value": 80000,
+        "Suggested Vehicle": "Picanto/Cultus"
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "6b1ebd79-e0bd-4bb8-8621-5b57f1d4462e",
+      "designation_id": "7740f944-30e5-40c9-a70a-264d5f380a18",
+      "designation_name": "Associate Vice President",
+      "grade_code": "P-08",
+      "label": null,
+      "salary_amount": 431300,
+      "details": {
+        "PF": 21565,
+        "IPD": 550000,
+        "OPD": 100000,
+        "Fuel": 15000,
+        "Gross": 446300,
+        "Normal": 100000,
+        "Package": 602032,
+        "Cesarean": 200000,
+        "Vehicle*": "As per policy",
+        "Vehicle Value": 80000,
+        "Suggested Vehicle": "Picanto/Cultus"
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "9de3fe68-df79-4e70-b8e8-f1506c0114f0",
+      "designation_id": "a3e80b35-3a2d-437a-85ee-082b404481b3",
+      "designation_name": "Vice President",
+      "grade_code": "P-09",
+      "label": null,
+      "salary_amount": 452900,
+      "details": {
+        "PF": 22645,
+        "IPD": 550000,
+        "OPD": 100000,
+        "Fuel": 20000,
+        "Gross": 472900,
+        "Normal": 100000,
+        "Package": 669712,
+        "Cesarean": 200000,
+        "Vehicle*": "As per policy",
+        "Vehicle Value": 120000,
+        "Suggested Vehicle": "Yaris/City"
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "e18cfe86-35ec-47aa-9dd5-46853a637372",
+      "designation_id": "a3e80b35-3a2d-437a-85ee-082b404481b3",
+      "designation_name": "Vice President",
+      "grade_code": "P-10",
+      "label": null,
+      "salary_amount": 475500,
+      "details": {
+        "PF": 23775,
+        "IPD": 550000,
+        "OPD": 100000,
+        "Fuel": 20000,
+        "Gross": 495500,
+        "Normal": 100000,
+        "Package": 693442,
+        "Cesarean": 200000,
+        "Vehicle*": "As per policy",
+        "Vehicle Value": 120000,
+        "Suggested Vehicle": "Yaris/City"
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "dcf78d46-4248-4184-b900-62392f4e35c2",
+      "designation_id": "a3e80b35-3a2d-437a-85ee-082b404481b3",
+      "designation_name": "Vice President",
+      "grade_code": "P-11",
+      "label": null,
+      "salary_amount": 499300,
+      "details": {
+        "PF": 24965,
+        "IPD": 550000,
+        "OPD": 100000,
+        "Fuel": 20000,
+        "Gross": 519300,
+        "Normal": 100000,
+        "Package": 718432,
+        "Cesarean": 200000,
+        "Vehicle*": "As per policy",
+        "Vehicle Value": 120000,
+        "Suggested Vehicle": "Yaris/City"
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "edf33147-16f4-43d9-9cac-3096928ae879",
+      "designation_id": "a3e80b35-3a2d-437a-85ee-082b404481b3",
+      "designation_name": "Vice President",
+      "grade_code": "P-12",
+      "label": null,
+      "salary_amount": 524300,
+      "details": {
+        "PF": 26215,
+        "IPD": 550000,
+        "OPD": 100000,
+        "Fuel": 20000,
+        "Gross": 544300,
+        "Normal": 100000,
+        "Package": 744682,
+        "Cesarean": 200000,
+        "Vehicle*": "As per policy",
+        "Vehicle Value": 120000,
+        "Suggested Vehicle": "Yaris/City"
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "f0e4d28a-759a-45b1-86cd-bb0316be4820",
+      "designation_id": "a3e80b35-3a2d-437a-85ee-082b404481b3",
+      "designation_name": "Vice President",
+      "grade_code": "P-13",
+      "label": null,
+      "salary_amount": 550500,
+      "details": {
+        "PF": 27525,
+        "IPD": 550000,
+        "OPD": 100000,
+        "Fuel": 20000,
+        "Gross": 570500,
+        "Normal": 100000,
+        "Package": 772192,
+        "Cesarean": 200000,
+        "Vehicle*": "As per policy",
+        "Vehicle Value": 120000,
+        "Suggested Vehicle": "Yaris/City"
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "d3c0dd39-beb4-4588-a527-f10850fbc5b9",
+      "designation_id": "a3e80b35-3a2d-437a-85ee-082b404481b3",
+      "designation_name": "Vice President",
+      "grade_code": "P-14",
+      "label": null,
+      "salary_amount": 578000,
+      "details": {
+        "PF": 28900,
+        "IPD": 550000,
+        "OPD": 100000,
+        "Fuel": 20000,
+        "Gross": 598000,
+        "Normal": 100000,
+        "Package": 801067,
+        "Cesarean": 200000,
+        "Vehicle*": "As per policy",
+        "Vehicle Value": 120000,
+        "Suggested Vehicle": "Yaris/City"
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "57a16fe3-133e-463e-964d-20520a8da4e4",
+      "designation_id": "a3e80b35-3a2d-437a-85ee-082b404481b3",
+      "designation_name": "Vice President",
+      "grade_code": "P-15",
+      "label": null,
+      "salary_amount": 606900,
+      "details": {
+        "PF": 30345,
+        "IPD": 550000,
+        "OPD": 100000,
+        "Fuel": 20000,
+        "Gross": 626900,
+        "Normal": 100000,
+        "Package": 831412,
+        "Cesarean": 200000,
+        "Vehicle*": "As per policy",
+        "Vehicle Value": 120000,
+        "Suggested Vehicle": "Yaris/City"
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "f148d6a4-73b5-4ed1-8232-d044f6bbae2b",
+      "designation_id": "a3e80b35-3a2d-437a-85ee-082b404481b3",
+      "designation_name": "Vice President",
+      "grade_code": "P-16",
+      "label": null,
+      "salary_amount": 637200,
+      "details": {
+        "PF": 31860,
+        "IPD": 550000,
+        "OPD": 100000,
+        "Fuel": 20000,
+        "Gross": 657200,
+        "Normal": 100000,
+        "Package": 863227,
+        "Cesarean": 200000,
+        "Vehicle*": "As per policy",
+        "Vehicle Value": 120000,
+        "Suggested Vehicle": "Yaris/City"
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "e8681076-3e83-450d-bdb9-4ed42bee01c5",
+      "designation_id": "a3e80b35-3a2d-437a-85ee-082b404481b3",
+      "designation_name": "Vice President",
+      "grade_code": "P-17",
+      "label": null,
+      "salary_amount": 669100,
+      "details": {
+        "PF": 33455,
+        "IPD": 550000,
+        "OPD": 100000,
+        "Fuel": 20000,
+        "Gross": 689100,
+        "Normal": 100000,
+        "Package": 896722,
+        "Cesarean": 200000,
+        "Vehicle*": "As per policy",
+        "Vehicle Value": 120000,
+        "Suggested Vehicle": "Yaris/City"
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "fefe880c-cc87-4678-add9-5dd6ec77eb40",
+      "designation_id": "a3e80b35-3a2d-437a-85ee-082b404481b3",
+      "designation_name": "Vice President",
+      "grade_code": "P-18",
+      "label": null,
+      "salary_amount": 702600,
+      "details": {
+        "PF": 35130,
+        "IPD": 550000,
+        "OPD": 100000,
+        "Fuel": 20000,
+        "Gross": 722600,
+        "Normal": 100000,
+        "Package": 931897,
+        "Cesarean": 200000,
+        "Vehicle*": "As per policy",
+        "Vehicle Value": 120000,
+        "Suggested Vehicle": "Yaris/City"
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "31b7aaf0-ff92-48b1-b7ec-b3ebc6549c7e",
+      "designation_id": "a3e80b35-3a2d-437a-85ee-082b404481b3",
+      "designation_name": "Vice President",
+      "grade_code": "P-19",
+      "label": null,
+      "salary_amount": 737700,
+      "details": {
+        "PF": 36885,
+        "IPD": 550000,
+        "OPD": 100000,
+        "Fuel": 20000,
+        "Gross": 757700,
+        "Normal": 100000,
+        "Package": 968752,
+        "Cesarean": 200000,
+        "Vehicle*": "As per policy",
+        "Vehicle Value": 120000,
+        "Suggested Vehicle": "Yaris/City"
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "6172ceba-fb68-4dc1-8e3d-7ba572923b2c",
+      "designation_id": "a3e80b35-3a2d-437a-85ee-082b404481b3",
+      "designation_name": "Vice President",
+      "grade_code": "P-20",
+      "label": null,
+      "salary_amount": 774600,
+      "details": {
+        "PF": 38730,
+        "IPD": 550000,
+        "OPD": 100000,
+        "Fuel": 20000,
+        "Gross": 794600,
+        "Normal": 100000,
+        "Package": 1007497,
+        "Cesarean": 200000,
+        "Vehicle*": "As per policy",
+        "Vehicle Value": 120000,
+        "Suggested Vehicle": "Yaris/City"
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "c715451a-2703-40b6-8be9-8cedcad95900",
+      "designation_id": "75b3ae1e-85ac-4a12-b120-d22a5d2b0e9d",
+      "designation_name": "Senior Vice President",
+      "grade_code": "P-21",
+      "label": null,
+      "salary_amount": 813300,
+      "details": {
+        "PF": 40665,
+        "IPD": 700000,
+        "OPD": 120000,
+        "Fuel": 30000,
+        "Gross": 843300,
+        "Package": 1102298,
+        "Vehicle*": "As per policy",
+        "Vehicle Value": 150000,
+        "Suggested Vehicle": "Corolla"
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "4e56c303-dea2-4063-b41e-0d168cc0170a",
+      "designation_id": "75b3ae1e-85ac-4a12-b120-d22a5d2b0e9d",
+      "designation_name": "Senior Vice President",
+      "grade_code": "P-22",
+      "label": null,
+      "salary_amount": 854000,
+      "details": {
+        "PF": 42700,
+        "IPD": 700000,
+        "OPD": 120000,
+        "Fuel": 30000,
+        "Gross": 884000,
+        "Package": 1145033,
+        "Vehicle*": "As per policy",
+        "Vehicle Value": 150000,
+        "Suggested Vehicle": "Corolla"
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "30595972-1e0a-4fad-8edb-5b74b22a0ad6",
+      "designation_id": "75b3ae1e-85ac-4a12-b120-d22a5d2b0e9d",
+      "designation_name": "Senior Vice President",
+      "grade_code": "P-23",
+      "label": null,
+      "salary_amount": 896700,
+      "details": {
+        "PF": 44835,
+        "IPD": 700000,
+        "OPD": 120000,
+        "Fuel": 30000,
+        "Gross": 926700,
+        "Package": 1189868,
+        "Vehicle*": "As per policy",
+        "Vehicle Value": 150000,
+        "Suggested Vehicle": "Corolla"
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "5d85b1aa-9ab6-4295-a1fb-91cdda82bdbe",
+      "designation_id": "75b3ae1e-85ac-4a12-b120-d22a5d2b0e9d",
+      "designation_name": "Senior Vice President",
+      "grade_code": "P-24",
+      "label": null,
+      "salary_amount": 941500,
+      "details": {
+        "PF": 47075,
+        "IPD": 700000,
+        "OPD": 120000,
+        "Fuel": 30000,
+        "Gross": 971500,
+        "Package": 1236908,
+        "Vehicle*": "As per policy",
+        "Vehicle Value": 150000,
+        "Suggested Vehicle": "Corolla"
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "52884cae-576b-44d5-9fae-398aca91c469",
+      "designation_id": "75b3ae1e-85ac-4a12-b120-d22a5d2b0e9d",
+      "designation_name": "Senior Vice President",
+      "grade_code": "P-25",
+      "label": null,
+      "salary_amount": 988600,
+      "details": {
+        "PF": 49430,
+        "IPD": 700000,
+        "OPD": 120000,
+        "Fuel": 30000,
+        "Gross": 1018600,
+        "Package": 1286363,
+        "Vehicle*": "As per policy",
+        "Vehicle Value": 150000,
+        "Suggested Vehicle": "Corolla"
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "ae941c9a-304b-42cd-a4fa-5fd37f1a0dfc",
+      "designation_id": "75b3ae1e-85ac-4a12-b120-d22a5d2b0e9d",
+      "designation_name": "Senior Vice President",
+      "grade_code": "P-26",
+      "label": null,
+      "salary_amount": 1038000,
+      "details": {
+        "PF": 51900,
+        "IPD": 700000,
+        "OPD": 120000,
+        "Fuel": 30000,
+        "Gross": 1068000,
+        "Package": 1338233,
+        "Vehicle*": "As per policy",
+        "Vehicle Value": 150000,
+        "Suggested Vehicle": "Corolla"
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "d2238ee8-4207-4b88-8852-c3f9f4768eca",
+      "designation_id": "75b3ae1e-85ac-4a12-b120-d22a5d2b0e9d",
+      "designation_name": "Senior Vice President",
+      "grade_code": "P-27",
+      "label": null,
+      "salary_amount": 1089900,
+      "details": {
+        "PF": 54495,
+        "IPD": 700000,
+        "OPD": 120000,
+        "Fuel": 30000,
+        "Gross": 1119900,
+        "Package": 1392728,
+        "Vehicle*": "As per policy",
+        "Vehicle Value": 150000,
+        "Suggested Vehicle": "Corolla"
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "8df8a9d2-f4ce-4ab9-84a1-35cbb1bd28fa",
+      "designation_id": "75b3ae1e-85ac-4a12-b120-d22a5d2b0e9d",
+      "designation_name": "Senior Vice President",
+      "grade_code": "P-28",
+      "label": null,
+      "salary_amount": 1144400,
+      "details": {
+        "PF": 57220,
+        "IPD": 700000,
+        "OPD": 120000,
+        "Fuel": 30000,
+        "Gross": 1174400,
+        "Package": 1449953,
+        "Vehicle*": "As per policy",
+        "Vehicle Value": 150000,
+        "Suggested Vehicle": "Corolla"
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "0981c70a-27a5-4fa7-a738-70ca15a3f83c",
+      "designation_id": "75b3ae1e-85ac-4a12-b120-d22a5d2b0e9d",
+      "designation_name": "Senior Vice President",
+      "grade_code": "P-29",
+      "label": null,
+      "salary_amount": 1201600,
+      "details": {
+        "PF": 60080,
+        "IPD": 700000,
+        "OPD": 120000,
+        "Fuel": 30000,
+        "Gross": 1231600,
+        "Package": 1510013,
+        "Vehicle*": "As per policy",
+        "Vehicle Value": 150000,
+        "Suggested Vehicle": "Corolla"
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "16d74f50-d7a9-4d13-a88a-621cdcd589d2",
+      "designation_id": "75b3ae1e-85ac-4a12-b120-d22a5d2b0e9d",
+      "designation_name": "Senior Vice President",
+      "grade_code": "P-30",
+      "label": null,
+      "salary_amount": 1261700,
+      "details": {
+        "PF": 63085,
+        "IPD": 700000,
+        "OPD": 120000,
+        "Fuel": 30000,
+        "Gross": 1291700,
+        "Package": 1573118,
+        "Vehicle*": "As per policy",
+        "Vehicle Value": 150000,
+        "Suggested Vehicle": "Corolla"
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "f2e959d4-be15-4680-81bd-41ea7d92ccd9",
+      "designation_id": "75b3ae1e-85ac-4a12-b120-d22a5d2b0e9d",
+      "designation_name": "Senior Vice President",
+      "grade_code": "P-31",
+      "label": null,
+      "salary_amount": 1324800,
+      "details": {
+        "PF": 66240,
+        "IPD": 700000,
+        "OPD": 120000,
+        "Fuel": 30000,
+        "Gross": 1354800,
+        "Normal": "Z.",
+        "Package": 1639373,
+        "Vehicle*": "As per policy",
+        "Vehicle Value": 150000,
+        "Suggested Vehicle": "Corolla"
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "5d93f085-d8ae-46ee-aa67-6e8c456ff0eb",
+      "designation_id": "75b3ae1e-85ac-4a12-b120-d22a5d2b0e9d",
+      "designation_name": "Senior Vice President",
+      "grade_code": "P-32",
+      "label": null,
+      "salary_amount": 1391000,
+      "details": {
+        "PF": 69550,
+        "IPD": 700000,
+        "OPD": 120000,
+        "Fuel": 30000,
+        "Gross": 1421000,
+        "Package": 1708883,
+        "Vehicle*": "As per policy",
+        "Vehicle Value": 150000,
+        "Suggested Vehicle": "Corolla"
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "e2352077-b04d-41ae-85db-662a722ad4a3",
+      "designation_id": "75b3ae1e-85ac-4a12-b120-d22a5d2b0e9d",
+      "designation_name": "Senior Vice President",
+      "grade_code": "P-33",
+      "label": null,
+      "salary_amount": 1460600,
+      "details": {
+        "PF": 73030,
+        "IPD": 700000,
+        "OPD": 120000,
+        "Fuel": 30000,
+        "Gross": 1490600,
+        "Package": 1781963,
+        "Vehicle*": "As per policy",
+        "Vehicle Value": 150000,
+        "Suggested Vehicle": "Corolla"
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "f01bcbb9-ebbf-43a6-a28c-4fa391e8c633",
+      "designation_id": "75b3ae1e-85ac-4a12-b120-d22a5d2b0e9d",
+      "designation_name": "Senior Vice President",
+      "grade_code": "P-34",
+      "label": null,
+      "salary_amount": 1533600,
+      "details": {
+        "PF": 76680,
+        "IPD": 700000,
+        "OPD": 120000,
+        "Fuel": 30000,
+        "Gross": 1563600,
+        "Package": 1858613,
+        "Vehicle*": "As per policy",
+        "Vehicle Value": 150000,
+        "Suggested Vehicle": "Corolla"
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "c53bc7b1-60fd-4e4d-a06d-a685968fb272",
+      "designation_id": "75b3ae1e-85ac-4a12-b120-d22a5d2b0e9d",
+      "designation_name": "Senior Vice President",
+      "grade_code": "P-35",
+      "label": null,
+      "salary_amount": 1610300,
+      "details": {
+        "PF": 80515,
+        "IPD": 700000,
+        "OPD": 120000,
+        "Fuel": 30000,
+        "Gross": 1640300,
+        "Package": 1939148,
+        "Vehicle*": "As per policy",
+        "Vehicle Value": 150000,
+        "Suggested Vehicle": "Corolla"
+      },
+      "sort_order": 0
+    },
+    {
+      "id": "c554bd60-aed2-4324-b628-5e808a9f3172",
+      "designation_id": "75b3ae1e-85ac-4a12-b120-d22a5d2b0e9d",
+      "designation_name": "Senior Vice President",
+      "grade_code": "P-36",
+      "label": null,
+      "salary_amount": 1690800,
+      "details": {
+        "PF": 84540,
+        "IPD": 700000,
+        "OPD": 120000,
+        "Fuel": 30000,
+        "Gross": 1720800,
+        "Package": 2023673,
+        "Vehicle*": "As per policy",
+        "Vehicle Value": 150000,
+        "Suggested Vehicle": "Corolla"
+      },
+      "sort_order": 0
+    }
+  ]
+}

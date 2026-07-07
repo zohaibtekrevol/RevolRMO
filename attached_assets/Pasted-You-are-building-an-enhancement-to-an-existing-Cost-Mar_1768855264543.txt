@@ -1,0 +1,197 @@
+You are building an enhancement to an existing Cost & Margin module for a project-based financial system. The objective is to calculate project profitability, available implementation hours, consumed hours, and remaining margin using hourly bucket logic, configurable at global and project levels.
+
+1. SETTINGS MODULE (NEW TAB: Cost & Margin Settings)
+
+Add a new tab in the Settings module named “Cost & Margin Settings” with the following configurations:
+
+Global Settings
+
+These apply by default to all projects unless overridden at the project level:
+
+Hourly Rate by Region
+
+Define hourly cost rates for each region (e.g., CA, TX, AE)
+
+Example:
+
+CA = $20/hour
+
+TX = $18/hour
+
+AE = $15/hour
+
+Global Profitability Margin (%)
+
+Percentage of revenue reserved as profit
+
+Example: 30%
+
+Global Variance (Hours)
+
+Optional default variance buffer in hours
+
+Can be positive or negative
+
+Default = 0
+
+2. PROJECT-LEVEL OVERRIDES
+
+Each project should support optional overrides of the global settings:
+
+Project-specific Hourly Rate (optional)
+
+Project-specific Profitability Margin (%) (optional)
+
+Project-specific Variance (Hours) (optional)
+
+If a project-level value exists, it must override the global setting.
+If not, the system must fall back to global settings.
+
+This is critical because:
+
+High-margin projects should not force excessive implementation effort
+
+Low-margin projects may require stricter hour controls
+
+3. HOURLY BUCKET CALCULATION LOGIC
+
+For every project, calculate the Total Hourly Bucket as follows:
+
+Step 1: Determine Applicable Hourly Rate
+Hourly Rate = Project Hourly Rate (if defined)
+           OR Global Hourly Rate (based on project region)
+
+Step 2: Calculate Total Hour Bucket (Gross)
+Total Hour Bucket = Project Sold Amount ÷ Hourly Rate
+
+Example:
+
+Project Value = $50,000
+
+Hourly Rate = $20
+
+Total Hour Bucket = 2,500 hours
+
+4. PROFITABILITY DEDUCTION
+
+Determine applicable profitability margin:
+
+Profitability % = Project Profitability % (if defined)
+               OR Global Profitability %
+
+
+Calculate Profit Reserved Hours:
+
+Profit Reserved Hours = Total Hour Bucket × Profitability %
+
+
+Calculate Implementation Available Hours:
+
+Implementation Hours = Total Hour Bucket − Profit Reserved Hours
+
+Example:
+
+Total Hour Bucket = 2,500
+
+Profitability = 30%
+
+Profit Reserved = 750 hours
+
+Implementation Hours = 1,750 hours
+
+5. VARIANCE ADJUSTMENT
+
+Apply variance to the implementation hours:
+
+Variance = Project Variance (if defined)
+        OR Global Variance
+
+
+Final Available Implementation Hours:
+
+Final Available Hours = Implementation Hours ± Variance
+
+Example:
+
+Implementation Hours = 1,750
+
+Variance = +2,000 hours
+
+Final Available Hours = 3,750 hours
+
+Variance can be:
+
+Positive (expected overrun)
+
+Negative (efficiency expectation)
+
+6. TIMESHEET CONSUMPTION LOGIC
+
+From the Timesheet module:
+
+Fetch all approved timesheet entries for the project
+
+Calculate:
+
+Consumed Hours = SUM(timesheet.hoursLogged)
+
+7. MARGIN CONSUMPTION & REMAINING HOURS
+
+Calculate:
+
+Consumed Percentage
+Consumed % = Consumed Hours ÷ Final Available Hours × 100
+
+Remaining Hours
+Remaining Hours = Final Available Hours − Consumed Hours
+
+8. COST & MARGIN MODULE OUTPUT (PROJECT VIEW)
+
+For each project, display:
+
+Project Value
+
+Region
+
+Hourly Rate (applied)
+
+Total Hour Bucket
+
+Profitability %
+
+Profit Reserved Hours
+
+Variance (±)
+
+Final Available Hours
+
+Consumed Hours (from timesheets)
+
+Remaining Hours
+
+Margin Consumption (%)
+
+9. EXECUTIVE-LEVEL SAFETY RULES
+
+All calculations must be deterministic and auditable
+
+Any override (project-level) must be clearly flagged
+
+No silent fallbacks — explicitly indicate whether global or project settings are used
+
+If timesheet data is missing, consumed hours = 0 (no assumptions)
+
+10. EXTENSIBILITY (DO NOT IMPLEMENT NOW)
+
+Design logic cleanly so future support can be added for:
+
+Role-based hourly rates
+
+Revenue recognition vs cash
+
+Forecasted hour burn
+
+Margin alerts (early warning)
+
+Goal:
+This module must allow CEO/CFO-level visibility into how much profit is protected, how much effort is consumed, and how much delivery buffer remains, using hours as the primary margin control mechanism.

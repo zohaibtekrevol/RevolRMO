@@ -1,0 +1,158 @@
+Build a fully functional Monthly Planning module for a financial management web application. The module must include frontend, backend, database, APIs, and role-based access. The module is part of a system for managing recurring monthly payments, upsells, and project targets.
+
+1. Roles
+
+Admin: Full access — create/edit/delete month plans, add/edit/delete payments, generate reports.
+
+Project Manager (PM): View assigned plans, edit received payments only.
+
+2. Functional Requirements
+Create Monthly Plan
+
+Fields: Month, Year, Monthly Target, Notes
+
+Validation: Only one plan per Month + Year
+
+Admin only
+
+Add Payments
+
+Link payments to a Monthly Plan
+
+Fields for each payment:
+
+Project Name (from Project Directory)
+
+Client Name (auto-filled)
+
+Region (auto-filled)
+
+Assigned PM (auto-filled)
+
+Payment Type (Recurring / Upsell)
+
+Phase / Narration
+
+Total Project Amount (auto-filled)
+
+Expected Amount (default = X% of total, editable)
+
+Amount Received (editable only if status = Payment Received)
+
+Payment Status: Not Targeting / Pending Invoice / Invoiced / Payment Received
+
+Invoice Date, Due Date, Payment Received Date
+
+Set Target toggle (True / False)
+
+View Monthly Plan
+
+Table with filters: PM, Region, Payment Type, Payment Status
+
+Aggregated summary cards:
+
+Total Recurring Target
+
+Total Received
+
+Total Remaining
+
+Total Upsells
+
+Edit / Delete Payments
+
+Admin: edit/delete all payments
+
+PM: edit only received amounts for assigned payments
+
+Export / Reports
+
+Export table and summary as CSV or PDF
+
+3. Database Schema
+
+MonthlyPlan Table
+
+id (primary key)
+
+month (int 1–12)
+
+year (int)
+
+monthlyTarget (numeric)
+
+notes (text)
+
+createdBy (userId)
+
+createdAt, updatedAt
+
+Payments Table
+
+id (primary key)
+
+monthlyPlanId (foreign key)
+
+projectId (foreign key)
+
+expectedAmount
+
+totalAmount
+
+receivedAmount
+
+paymentType (Recurring / Upsell)
+
+paymentStatus
+
+phase / narration
+
+invoiceDate, dueDate, paymentReceivedDate
+
+isTarget (boolean)
+
+4. Backend / API Requirements
+
+CRUD endpoints:
+
+/monthlyPlan → Create, Read, Update, Delete
+
+/payments → Create, Read, Update, Delete
+
+/monthlyPlan/:id/summary → aggregated stats (total received, remaining, upsells)
+
+Role-based access: Admin vs PM
+
+Validations:
+
+Only one plan per month/year
+
+ReceivedAmount ≤ TotalAmount
+
+PM can only update their own receivedAmount
+
+5. Frontend Requirements
+
+Create Monthly Plan form (Month, Year, Target, Notes)
+
+Payments Table with filters, search, and sorting
+
+Add/Edit Payment modal or inline form
+
+Summary cards for aggregated stats
+
+Role-based field access
+
+Responsive and clean UI
+
+6. Additional Requirements
+
+Ready-to-run in Replit environment
+
+Include dummy data for testing
+
+Include frontend (React/Next.js + TailwindCSS), backend (Node.js + Express), database scripts (PostgreSQL or MongoDB), and REST APIs
+
+Include validation, filtering, summary aggregation, and export functionality
+
+Output: Generate all code files, folders, and configuration required to run this Monthly Planning module immediately in Replit.

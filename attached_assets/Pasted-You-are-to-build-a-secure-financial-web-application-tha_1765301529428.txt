@@ -1,0 +1,211 @@
+You are to build a secure financial web application that manages recurring monthly payments, upsells, targets, reporting and user accounts.
+The application must follow the system architecture, sitemap, modules and functionalities below.
+
+📍 PROJECT OVERVIEW
+
+A private-access financial management system for tracking recurring monthly payments grouped by Region and Project Managers. The system should support dashboard analytics, monthly planning, reporting, and admin-level user management. Only invited users should be able to log in.
+
+Stack (Preferred Example):
+
+Frontend: React / Next.js / TailwindCSS
+
+Backend: Node.js (Express) OR Python FastAPI
+
+DB: PostgreSQL / MongoDB
+
+Auth: JWT + bcrypt + secure email OTP reset
+
+Deployable in Replit environment
+
+📍 SITE MAP + MODULE DEFINITIONS
+1. Authentication Module
+
+Login (UserID + Password)
+
+No Self Registration — only admin can create users
+
+Forgot Password → Email-based OTP Reset
+
+OTP expiry (5–10 min) + encrypted password storage
+
+Screens
+✔ Login Page
+✔ Forgot Password → Enter Email → OTP → Reset Password
+
+2. Dashboard
+
+For each logged-in Project Manager:
+
+Overall Target (Monthly target)
+
+Total Recurring Received
+
+Remaining Amount
+
+Total Upsells
+
+Breakdown by regions: CA / TX / AE
+
+PM-specific summary:
+
+Target Assigned
+
+Amount Received (Recurring only)
+
+Upsells Received
+
+Admin Dashboard includes:
+
+Total Received vs Remaining
+
+All PM stats
+
+Region breakdown
+
+Live table of received and pending payments
+
+3. Payment Management Module
+
+Filtering:
+
+Month filter
+
+Region filter
+
+PM filter
+
+Payment Type (Recurring / Upsell)
+
+Status filter (Not Targeting / Pending Invoice / Invoiced / Received)
+
+Table Fields
+
+Field	Description
+Project Name	
+Client Name	
+Region (CA, TX, AE)	
+Payment Type (Recurring / Upsell)	
+Phase / Narration	
+Total Project Amount	
+Expected Amount (X% of total)	
+Amount Received	editable only when status = Received
+Payment Status	
+Invoice Date	
+Due Date	
+Payment Received Date	
+4. Admin Panel
+User Management
+
+Create / Edit / Block Users
+
+Role assignment (Admin / PM only)
+
+Password Reset
+
+Reporting
+
+User should be able to generate reports:
+
+Report Type	Output
+Daily	Received today + pending + invoiced
+Weekly	Last 7 days summary
+Monthly	Month selected summary
+Yearly	Full annual performance
+
+Filters:
+
+Select Month / Year / PM / Region
+
+Export:
+
+CSV, PDF (optional)
+
+5. Monthly Planning + Targets
+
+Create Monthly Plan
+
+Add Recurring Payments for the month
+
+Mark payment as Target or Non-Target
+
+Upsells are counted separately
+
+6. Project Directory
+
+Fields Required:
+
+Project Name
+
+Client Name
+
+Client Email
+
+Region
+
+Assigned PM
+
+Project Type
+
+Phase
+
+Total Cost
+
+Payment Terms / Recurrence Schedule
+
+CRUD must be available.
+
+7. Additional Features
+
+Notifications (payment received, invoice pending)
+
+Settings (thresholds, email configs, UI preferences)
+
+Activity log (optional)
+
+📍 DATABASE STRUCTURE (Recommended)
+
+Users
+(id, name, email, password_hash, role, status)
+
+Projects
+(id, name, clientName, clientEmail, region, pmId, type, phase, totalCost, paymentTerms)
+
+Payments
+(id, projectId, expectedAmount, totalAmount, receivedAmount, paymentType, status, invoiceDate, dueDate, receivedDate, month, year)
+
+MonthlyPlan
+(id, month, year, targetRecurring, notes)
+
+OTP Reset Table
+(id, userId, otp, createdAt, expiresAt)
+
+📍 WHAT YOU (AI) SHOULD GENERATE
+
+UI Pages + Routing (React or Next.js)
+
+Backend API for all modules
+
+DB schema + scripts + migrations
+
+Admin dashboard & reports views
+
+Authentication + OTP flow
+
+Payment filtering UI
+
+Proper structured README
+
+Optional seed data & dummy UI mocks
+
+❗ OUTPUT FORMAT
+
+Start by generating project folder structure
+
+Then create core backend + frontend files
+
+Generate endpoints + UI screens module-by-module
+
+Build step by step—not all at once
+
+✦ End of Prompt ✦
+Use this text as the instruction to build the application.

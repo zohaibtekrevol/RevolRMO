@@ -1,0 +1,203 @@
+Role: You are a senior full-stack engineer and product architect building an internal finance module for executive (CEO/CFO) visibility in a project-based software company.
+
+Objective: Build a Cost & Margin module that calculates Estimated vs Actual Cost and Gross Margin per project using cash-received revenue and monthly cost tracking, with support for timesheet-based human costs (preferred) and manual cost allocation (fallback).
+
+CORE BUSINESS RULES (DO NOT DEVIATE)
+Revenue Logic
+
+Revenue is calculated strictly on cash received, not recognized revenue.
+
+Pull actual revenue from the Payments module where:
+
+status = received
+
+Revenue should be aggregatable:
+
+Monthly
+
+YTD
+
+Lifetime (project total)
+
+Cost Logic
+Estimated Cost (Planned)
+
+For each project + month, allow storing:
+
+Estimated Human Cost
+
+Estimated Vendor Cost
+
+Estimated Tools / Licenses Cost
+
+Total Estimated Cost (auto-calculated)
+
+This is entered manually during planning or project setup.
+
+Actual Cost (Real)
+
+Actual cost must be month-based and derived as follows:
+
+1. Human Cost (PRIMARY – Timesheet-Based)
+
+Pull approved timesheets
+
+Each timesheet entry contains:
+
+userId
+
+projectId
+
+date
+
+hoursLogged
+
+hourlyCostRate
+
+Actual Human Cost =
+
+SUM(hoursLogged × hourlyCostRate)
+
+2. Human Cost (FALLBACK – Manual Allocation)
+
+If no timesheet exists for a project/month:
+
+Allow manual monthly human cost entry
+
+Clearly flag this as “Manual Override”
+
+3. Vendor Costs
+
+Monthly vendor invoices mapped to project
+
+4. Tools / Licenses
+
+Monthly tool cost allocations per project
+
+5. Overhead
+
+Explicitly excluded in V1
+
+CALCULATIONS
+Cost Variance
+Cost Variance = Estimated Cost − Actual Cost
+
+Gross Margin (Cash-Based)
+Gross Margin (%) = (Cash Received − Actual Cost) ÷ Cash Received × 100
+
+
+Edge Case:
+
+If Cash Received = 0 → Margin = “Not Applicable”
+
+MARGIN BUCKETING (CONFIGURABLE)
+
+Classify each project into one of the following:
+
+Profit: Margin > +10%
+
+Breakeven: Margin between −5% and +10%
+
+Loss: Margin < −5%
+
+These thresholds must be configurable.
+
+VIEWS & OUTPUTS
+1. Project-Level View
+
+Project Name
+
+Month
+
+Cash Received
+
+Estimated Cost
+
+Actual Cost
+
+Cost Variance
+
+Gross Margin %
+
+Margin Bucket (Profit / Breakeven / Loss)
+
+2. Executive Summary (CEO / CFO)
+
+Total Cash Received (selected period)
+
+Total Actual Cost
+
+Overall Gross Margin
+
+Count of:
+
+Profit projects
+
+Breakeven projects
+
+Loss projects
+
+DATA MODELS (MINIMUM)
+ProjectEstimatedCost
+
+projectId
+
+month
+
+estimatedHumanCost
+
+estimatedVendorCost
+
+estimatedToolCost
+
+totalEstimatedCost
+
+Timesheet
+
+userId
+
+projectId
+
+date
+
+hoursLogged
+
+hourlyCostRate
+
+approvalStatus
+
+ProjectActualCost (derived + stored)
+
+projectId
+
+month
+
+actualHumanCost
+
+actualVendorCost
+
+actualToolCost
+
+totalActualCost
+
+costSource (Timesheet / Manual)
+
+NON-FUNCTIONAL REQUIREMENTS
+
+All calculations must be month-aware
+
+Must support historical recalculation if timesheets change
+
+Logic must be deterministic and auditable (CFO-safe)
+
+No UI assumptions — focus on clean APIs and services
+
+Deliverables:
+
+Backend logic
+
+APIs for fetching cost, margin, and buckets
+
+Clear separation between estimated vs actual cost
+
+Build this as a clean, extensible V1 suitable for future additions like overheads, revenue recognition, and forecasting.
