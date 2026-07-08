@@ -1,0 +1,36 @@
+2026-04-30T21:07:50: PM2 log: Launching in no daemon mode
+2026-04-30T21:07:50: PM2 log: App [finance-flow:0] starting in -fork mode-
+2026-04-30T21:07:50: PM2 log: App [finance-flow:0] online
+Fixed upsell payments is_target flag
+(node:18) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+9:07:52 PM [presence] Presence WebSocket server initialized on /ws/presence
+9:07:52 PM [express] serving on port 5000
+9:08:25 PM [express] GET /api/auth/user 401 in 7ms :: {"message":"Unauthorized"}
+9:08:25 PM [express] GET /api/theme 401 in 2ms :: {"message":"Unauthorized"}
+9:08:28 PM [express] GET /api/login 302 in 46ms
+[auth] /api/callback no user returned. info: { message: 'Unable to verify authorization request state' }
+9:08:34 PM [express] GET /api/callback 302 in 11ms
+9:08:35 PM [express] GET /api/auth/user 401 in 3ms :: {"message":"Unauthorized"}
+9:08:35 PM [express] GET /api/theme 401 in 3ms :: {"message":"Unauthorized"}
+9:09:03 PM [express] GET /api/auth/user 401 in 3ms :: {"message":"Unauthorized"}
+9:09:03 PM [express] GET /api/theme 401 in 3ms :: {"message":"Unauthorized"}
+9:09:09 PM [express] GET /api/auth/user 401 in 3ms :: {"message":"Unauthorized"}
+9:09:09 PM [express] GET /api/theme 401 in 3ms :: {"message":"Unauthorized"}
+9:09:10 PM [express] GET /api/login 302 in 35ms
+[auth] /api/callback no user returned. info: { message: 'Unable to verify authorization request state' }
+9:09:16 PM [express] GET /api/callback 302 in 3ms
+9:09:17 PM [express] GET /api/theme 401 in 2ms :: {"message":"Unauthorized"}
+9:09:17 PM [express] GET /api/auth/user 401 in 2ms :: {"message":"Unauthorized"}
+9:13:43 PM [express] GET /api/auth/user 401 in 2ms :: {"message":"Unauthorized"}
+9:13:43 PM [express] GET /api/theme 401 in 2ms :: {"message":"Unauthorized"}
+9:13:46 PM [express] GET /api/login 302 in 36ms
+[auth] /api/callback no user returned. info: { message: 'Unable to verify authorization request state' }
+9:13:51 PM [express] GET /api/callback 302 in 3ms
+9:13:52 PM [express] GET /api/theme 401 in 3ms :: {"message":"Unauthorized"}
+9:13:52 PM [express] GET /api/auth/user 401 in 2ms :: {"message":"Unauthorized"}
+9:14:06 PM [express] GET /api/login 302 in 35ms
+[auth] /api/callback no user returned. info: { message: 'Unable to verify authorization request state' }
+9:14:11 PM [express] GET /api/callback 302 in 3ms
+9:14:13 PM [express] GET /api/auth/user 401 in 3ms :: {"message":"Unauthorized"}
+9:14:13 PM [express] GET /api/theme 401 in 3ms :: {"message":"Unauthorized"}

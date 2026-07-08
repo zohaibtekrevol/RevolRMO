@@ -1,0 +1,257 @@
+Build a CEO/CFO-level Recurring Revenue Forecasting module for a financial management system.
+This module must provide accurate cash-in forecasting, risk visibility, and decision-ready insights.
+The logic must follow financial best practices, not engineering shortcuts.
+
+1️⃣ PURPOSE (NON-NEGOTIABLE)
+
+This module answers one executive question:
+
+“How much cash are we realistically expecting to receive, when, and how confident are we?”
+
+Forecasting must represent ALL unpaid expected revenue, not just uncertain items.
+
+2️⃣ FORECASTING MODES
+A. Monthly Forecasting
+B. Project-Wise Forecasting
+
+Both modes must follow identical underlying rules.
+
+3️⃣ DATA SOURCES (UNIFIED)
+
+Forecasting must pull from two sources, treated equally:
+
+Project Milestones (FTFC projects)
+
+Monthly Planning Payments (MRR & TBE projects)
+
+There must be no special or weaker logic for milestones.
+
+4️⃣ CORE INCLUSION RULE (CRITICAL)
+
+Include ALL items in forecast where:
+
+Payment Status ≠ Payment Received
+
+AND Payment Status ≠ Cancelled
+
+⚠️ Probability does NOT determine inclusion
+⚠️ 100% probability does NOT mean payment is received
+
+Forecasting represents expected cash-in, not accounting revenue.
+
+5️⃣ PROBABILITY MODEL (MANDATORY)
+Probability applies to:
+
+Project milestones
+
+Monthly planning payments
+
+Every forecasted item must have:
+
+Expected Amount
+
+Received Amount
+
+Remaining Amount
+
+Probability %
+
+Default Probability Mapping (editable):
+
+Not Targeting → 0%
+
+Pending Invoice → 40%
+
+Invoiced → 70%
+
+Verbal / Committed → 85%
+
+Payment Received → 100%
+
+6️⃣ PARTIAL PAYMENTS LOGIC
+
+If partial payment is received:
+
+Remaining Amount = Expected Amount − Received Amount
+
+Only the remaining amount must be forecasted.
+Already received cash must never appear in forecast.
+
+7️⃣ DUE DATE LOGIC (BY PROJECT TYPE)
+Fixed Time Fixed Cost (FTFC)
+
+Use milestone due dates entered by user
+
+Monthly Recurring Revenue (MRR)
+
+System-generated due dates
+
+Next Due Date = Last Payment Received Date + 30 days
+
+If no payment received yet → Project Start Date + 30 days
+
+Team-Based Engagement (TBE)
+
+Same logic as MRR
+
+Monthly cycle, system-calculated
+
+No manual due date input
+
+8️⃣ CARRY-FORWARD & OVERDUE LOGIC (EXECUTIVE CRITICAL)
+
+If:
+
+Due Date < Selected Forecast Month
+
+AND Status ≠ Payment Received
+
+➡️ Carry forward into the selected month
+➡️ Mark as Overdue
+
+If an item is rolled forward for:
+
+2+ consecutive months → Mark as At Risk
+
+Overdue and At-Risk values must be clearly visible.
+
+9️⃣ FORECAST CALCULATIONS (MANDATORY OUTPUTS)
+
+For every forecasted item:
+
+Gross Forecast = Remaining Amount
+
+Weighted Forecast = Remaining Amount × Probability ÷ 100
+
+At summary level, calculate:
+
+Total Gross Forecast
+
+Total Weighted Forecast
+
+Total Overdue Amount
+
+Total At-Risk Amount
+
+Probability-Adjusted Confidence %
+
+🔟 MONTHLY FORECAST VIEW (CEO VIEW)
+
+Show all forecasted items for the selected month, including:
+
+Rolled-forward overdue items
+
+Columns must include:
+
+Project Name
+
+Client
+
+Region
+
+Payment Type (FTFC / MRR / TBE)
+
+Due Date
+
+Expected Amount
+
+Received Amount
+
+Remaining Amount
+
+Probability %
+
+Gross Forecast
+
+Weighted Forecast
+
+Status (Normal / Overdue / At Risk)
+
+1️⃣1️⃣ PROJECT-WISE FORECAST VIEW (CFO VIEW)
+
+Group forecast by project and show:
+
+Next Expected Payment
+
+Total Remaining Amount
+
+Total Weighted Forecast
+
+Overdue Amount
+
+At-Risk Amount
+
+Collection Confidence %
+
+This view must allow CFOs to identify:
+
+High-risk projects
+
+Cash-flow dependencies
+
+Concentration risk
+
+1️⃣2️⃣ EXECUTIVE SUMMARY (TOP OF MODULE)
+
+At the top of the module show:
+
+Expected Cash-In (Gross)
+
+Realistic Cash-In (Weighted)
+
+Overdue Exposure
+
+At-Risk Exposure
+
+Forecast Confidence %
+
+This summary must update dynamically with filters.
+
+1️⃣3️⃣ FILTERS (EXECUTIVE-GRADE)
+
+Allow filtering by:
+
+Month / Year
+
+Region
+
+Project Manager
+
+Client
+
+Project Type
+
+Risk Status (Normal / Overdue / At Risk)
+
+1️⃣4️⃣ NON-FUNCTIONAL REQUIREMENTS
+
+Logic must be deterministic and auditable
+
+No hard-coded probabilities
+
+No exclusion based on probability
+
+Ready for board-level reporting
+
+Suitable for CEO/CFO decision-making
+
+1️⃣5️⃣ FINAL OUTPUT EXPECTATION
+
+Generate:
+
+Backend logic
+
+Aggregation queries
+
+Forecast computation logic
+
+Monthly & Project-Wise views
+
+Summary calculations
+
+This module must reflect true forward-looking cash-flow forecasting, not just pipeline uncertainty.
+
+❗ ABSOLUTE RULE
+
+If money is unpaid, it belongs in the forecast.
+Probability only adjusts confidence, not inclusion.
